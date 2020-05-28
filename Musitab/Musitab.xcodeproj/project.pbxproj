@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C8D4A024800C5400EC471D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D49F24800C5400EC471D /* AppDelegate.swift */; };
+		10C8D4A224800C5400EC471D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4A124800C5400EC471D /* SceneDelegate.swift */; };
+		10C8D4A424800C5400EC471D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4A324800C5400EC471D /* ViewController.swift */; };
+		10C8D4A724800C5400EC471D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C8D4A524800C5400EC471D /* Main.storyboard */; };
+		10C8D4A924800C5600EC471D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C8D4A824800C5600EC471D /* Assets.xcassets */; };
+		10C8D4AC24800C5600EC471D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C8D4AA24800C5600EC471D /* LaunchScreen.storyboard */; };
+		10C8D4B724800C5600EC471D /* MusitabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4B624800C5600EC471D /* MusitabTests.swift */; };
+		10C8D4C224800C5600EC471D /* MusitabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4C124800C5600EC471D /* MusitabUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10C8D4B324800C5600EC471D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C8D49424800C5400EC471D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C8D49B24800C5400EC471D;
+			remoteInfo = Musitab;
+		};
+		10C8D4BE24800C5600EC471D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10C8D49424800C5400EC471D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C8D49B24800C5400EC471D;
+			remoteInfo = Musitab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10C8D49C24800C5400EC471D /* Musitab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musitab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C8D49F24800C5400EC471D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10C8D4A124800C5400EC471D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		10C8D4A324800C5400EC471D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10C8D4A624800C5400EC471D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10C8D4A824800C5600EC471D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10C8D4AB24800C5600EC471D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10C8D4AD24800C5600EC471D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C8D4B224800C5600EC471D /* MusitabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusitabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C8D4B624800C5600EC471D /* MusitabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusitabTests.swift; sourceTree = "<group>"; };
+		10C8D4B824800C5600EC471D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C8D4BD24800C5600EC471D /* MusitabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusitabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C8D4C124800C5600EC471D /* MusitabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusitabUITests.swift; sourceTree = "<group>"; };
+		10C8D4C324800C5600EC471D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10C8D49924800C5400EC471D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C8D4AF24800C5600EC471D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C8D4BA24800C5600EC471D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10C8D49324800C5400EC471D = {
+			isa = PBXGroup;
+			children = (
+				10C8D49E24800C5400EC471D /* Musitab */,
+				10C8D4B524800C5600EC471D /* MusitabTests */,
+				10C8D4C024800C5600EC471D /* MusitabUITests */,
+				10C8D49D24800C5400EC471D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10C8D49D24800C5400EC471D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10C8D49C24800C5400EC471D /* Musitab.app */,
+				10C8D4B224800C5600EC471D /* MusitabTests.xctest */,
+				10C8D4BD24800C5600EC471D /* MusitabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10C8D49E24800C5400EC471D /* Musitab */ = {
+			isa = PBXGroup;
+			children = (
+				10C8D49F24800C5400EC471D /* AppDelegate.swift */,
+				10C8D4A124800C5400EC471D /* SceneDelegate.swift */,
+				10C8D4A324800C5400EC471D /* ViewController.swift */,
+				10C8D4A524800C5400EC471D /* Main.storyboard */,
+				10C8D4A824800C5600EC471D /* Assets.xcassets */,
+				10C8D4AA24800C5600EC471D /* LaunchScreen.storyboard */,
+				10C8D4AD24800C5600EC471D /* Info.plist */,
+			);
+			path = Musitab;
+			sourceTree = "<group>";
+		};
+		10C8D4B524800C5600EC471D /* MusitabTests */ = {
+			isa = PBXGroup;
+			children = (
+				10C8D4B624800C5600EC471D /* MusitabTests.swift */,
+				10C8D4B824800C5600EC471D /* Info.plist */,
+			);
+			path = MusitabTests;
+			sourceTree = "<group>";
+		};
+		10C8D4C024800C5600EC471D /* MusitabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10C8D4C124800C5600EC471D /* MusitabUITests.swift */,
+				10C8D4C324800C5600EC471D /* Info.plist */,
+			);
+			path = MusitabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10C8D49B24800C5400EC471D /* Musitab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C8D4C624800C5600EC471D /* Build configuration list for PBXNativeTarget "Musitab" */;
+			buildPhases = (
+				10C8D49824800C5400EC471D /* Sources */,
+				10C8D49924800C5400EC471D /* Frameworks */,
+				10C8D49A24800C5400EC471D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Musitab;
+			productName = Musitab;
+			productReference = 10C8D49C24800C5400EC471D /* Musitab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10C8D4B124800C5600EC471D /* MusitabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C8D4C924800C5600EC471D /* Build configuration list for PBXNativeTarget "MusitabTests" */;
+			buildPhases = (
+				10C8D4AE24800C5600EC471D /* Sources */,
+				10C8D4AF24800C5600EC471D /* Frameworks */,
+				10C8D4B024800C5600EC471D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10C8D4B424800C5600EC471D /* PBXTargetDependency */,
+			);
+			name = MusitabTests;
+			productName = MusitabTests;
+			productReference = 10C8D4B224800C5600EC471D /* MusitabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10C8D4BC24800C5600EC471D /* MusitabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10C8D4CC24800C5600EC471D /* Build configuration list for PBXNativeTarget "MusitabUITests" */;
+			buildPhases = (
+				10C8D4B924800C5600EC471D /* Sources */,
+				10C8D4BA24800C5600EC471D /* Frameworks */,
+				10C8D4BB24800C5600EC471D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10C8D4BF24800C5600EC471D /* PBXTargetDependency */,
+			);
+			name = MusitabUITests;
+			productName = MusitabUITests;
+			productReference = 10C8D4BD24800C5600EC471D /* MusitabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10C8D49424800C5400EC471D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Caroline Viana";
+				TargetAttributes = {
+					10C8D49B24800C5400EC471D = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					10C8D4B124800C5600EC471D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 10C8D49B24800C5400EC471D;
+					};
+					10C8D4BC24800C5600EC471D = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 10C8D49B24800C5400EC471D;
+					};
+				};
+			};
+			buildConfigurationList = 10C8D49724800C5400EC471D /* Build configuration list for PBXProject "Musitab" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10C8D49324800C5400EC471D;
+			productRefGroup = 10C8D49D24800C5400EC471D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10C8D49B24800C5400EC471D /* Musitab */,
+				10C8D4B124800C5600EC471D /* MusitabTests */,
+				10C8D4BC24800C5600EC471D /* MusitabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10C8D49A24800C5400EC471D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C8D4AC24800C5600EC471D /* LaunchScreen.storyboard in Resources */,
+				10C8D4A924800C5600EC471D /* Assets.xcassets in Resources */,
+				10C8D4A724800C5400EC471D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C8D4B024800C5600EC471D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C8D4BB24800C5600EC471D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10C8D49824800C5400EC471D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C8D4A424800C5400EC471D /* ViewController.swift in Sources */,
+				10C8D4A024800C5400EC471D /* AppDelegate.swift in Sources */,
+				10C8D4A224800C5400EC471D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C8D4AE24800C5600EC471D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C8D4B724800C5600EC471D /* MusitabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C8D4B924800C5600EC471D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C8D4C224800C5600EC471D /* MusitabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10C8D4B424800C5600EC471D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C8D49B24800C5400EC471D /* Musitab */;
+			targetProxy = 10C8D4B324800C5600EC471D /* PBXContainerItemProxy */;
+		};
+		10C8D4BF24800C5600EC471D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10C8D49B24800C5400EC471D /* Musitab */;
+			targetProxy = 10C8D4BE24800C5600EC471D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10C8D4A524800C5400EC471D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C8D4A624800C5400EC471D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10C8D4AA24800C5600EC471D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C8D4AB24800C5600EC471D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10C8D4C424800C5600EC471D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10C8D4C524800C5600EC471D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10C8D4C724800C5600EC471D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Musitab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NadaAinda.Musitab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10C8D4C824800C5600EC471D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Musitab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NadaAinda.Musitab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10C8D4CA24800C5600EC471D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MusitabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NadaAinda.MusitabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musitab.app/Musitab";
+			};
+			name = Debug;
+		};
+		10C8D4CB24800C5600EC471D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MusitabTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NadaAinda.MusitabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Musitab.app/Musitab";
+			};
+			name = Release;
+		};
+		10C8D4CD24800C5600EC471D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MusitabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NadaAinda.MusitabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Musitab;
+			};
+			name = Debug;
+		};
+		10C8D4CE24800C5600EC471D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MusitabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NadaAinda.MusitabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Musitab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10C8D49724800C5400EC471D /* Build configuration list for PBXProject "Musitab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C8D4C424800C5600EC471D /* Debug */,
+				10C8D4C524800C5600EC471D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10C8D4C624800C5600EC471D /* Build configuration list for PBXNativeTarget "Musitab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C8D4C724800C5600EC471D /* Debug */,
+				10C8D4C824800C5600EC471D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10C8D4C924800C5600EC471D /* Build configuration list for PBXNativeTarget "MusitabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C8D4CA24800C5600EC471D /* Debug */,
+				10C8D4CB24800C5600EC471D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10C8D4CC24800C5600EC471D /* Build configuration list for PBXNativeTarget "MusitabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10C8D4CD24800C5600EC471D /* Debug */,
+				10C8D4CE24800C5600EC471D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10C8D49424800C5400EC471D /* Project object */;
+}
