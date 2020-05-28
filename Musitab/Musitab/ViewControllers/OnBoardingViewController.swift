@@ -12,7 +12,7 @@ class OnBoardingViewController: UIViewController {
 
     @IBOutlet weak var message: UILabel!
     var cont = 0
-    let Msg = ["Já se perguntou:\n\"O que eu vou tocar hoje?\"\nSe sim...\nVamos te ajudar com esse probleminha!", "Clique no seu estilo favorito, ou arrisque no aleatório!\nBora lá?"]
+    let Msg = ["Já se perguntou:\n\"O que eu vou tocar hoje?\"\nSe sim...\nVamos te ajudar com esse probleminha!", "Clique no seu estilo favorito, ou arrisque no aleatório!\nBora lá?", " "]
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,7 +22,7 @@ class OnBoardingViewController: UIViewController {
     }
     @IBAction func next(_ sender: Any) {
         
-        if(cont < 1){
+        if(cont < 2){
             message.text = Msg[cont]
         }
         else{
