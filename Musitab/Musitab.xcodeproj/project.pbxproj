@@ -15,6 +15,8 @@
 		10C8D4AC24800C5600EC471D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C8D4AA24800C5600EC471D /* LaunchScreen.storyboard */; };
 		10C8D4B724800C5600EC471D /* MusitabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4B624800C5600EC471D /* MusitabTests.swift */; };
 		10C8D4C224800C5600EC471D /* MusitabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4C124800C5600EC471D /* MusitabUITests.swift */; };
+		10C8D4D02480119400EC471D /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C8D4CF2480119400EC471D /* OnBoarding.storyboard */; };
+		10C8D4D42480176C00EC471D /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4D32480176C00EC471D /* OnBoardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		10C8D4BD24800C5600EC471D /* MusitabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusitabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C8D4C124800C5600EC471D /* MusitabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusitabUITests.swift; sourceTree = "<group>"; };
 		10C8D4C324800C5600EC471D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10C8D4CF2480119400EC471D /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		10C8D4D32480176C00EC471D /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +103,14 @@
 		10C8D49E24800C5400EC471D /* Musitab */ = {
 			isa = PBXGroup;
 			children = (
+				10C8D4D2248011EF00EC471D /* ViewControllers */,
+				10C8D4D1248011D100EC471D /* Storyboards */,
 				10C8D49F24800C5400EC471D /* AppDelegate.swift */,
 				10C8D4A124800C5400EC471D /* SceneDelegate.swift */,
-				10C8D4A324800C5400EC471D /* ViewController.swift */,
-				10C8D4A524800C5400EC471D /* Main.storyboard */,
 				10C8D4A824800C5600EC471D /* Assets.xcassets */,
 				10C8D4AA24800C5600EC471D /* LaunchScreen.storyboard */,
 				10C8D4AD24800C5600EC471D /* Info.plist */,
+				10C8D4D32480176C00EC471D /* OnBoardingViewController.swift */,
 			);
 			path = Musitab;
 			sourceTree = "<group>";
@@ -126,6 +131,23 @@
 				10C8D4C324800C5600EC471D /* Info.plist */,
 			);
 			path = MusitabUITests;
+			sourceTree = "<group>";
+		};
+		10C8D4D1248011D100EC471D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				10C8D4CF2480119400EC471D /* OnBoarding.storyboard */,
+				10C8D4A524800C5400EC471D /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		10C8D4D2248011EF00EC471D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				10C8D4A324800C5400EC471D /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +257,7 @@
 				10C8D4AC24800C5600EC471D /* LaunchScreen.storyboard in Resources */,
 				10C8D4A924800C5600EC471D /* Assets.xcassets in Resources */,
 				10C8D4A724800C5400EC471D /* Main.storyboard in Resources */,
+				10C8D4D02480119400EC471D /* OnBoarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +285,7 @@
 				10C8D4A424800C5400EC471D /* ViewController.swift in Sources */,
 				10C8D4A024800C5400EC471D /* AppDelegate.swift in Sources */,
 				10C8D4A224800C5400EC471D /* SceneDelegate.swift in Sources */,
+				10C8D4D42480176C00EC471D /* OnBoardingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
