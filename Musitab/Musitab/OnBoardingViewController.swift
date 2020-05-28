@@ -21,14 +21,17 @@ class OnBoardingViewController: UIViewController {
         
     }
     @IBAction func next(_ sender: Any) {
-        cont += 1
+        
         if(cont < 1){
             message.text = Msg[cont]
         }
         else{
             cont = 0
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let mainVC = storyboard.instantiateViewController(withIdentifier: "mainVC") as! UITabBarController
+            self.present(mainVC, animated: true, completion: nil)
         }
-        
+        cont += 1
     }
     
     func endOnBoarding(){

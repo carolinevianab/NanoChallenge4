@@ -10,7 +10,7 @@
         <!--BemVindo-->
         <scene sceneID="rdH-vj-2EV">
             <objects>
-                <viewController title="BemVindo" id="4Y8-6J-Xem" customClass="OnBoardingViewController" customModule="Musitab" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OnboardingScreen" title="BemVindo" modalPresentationStyle="fullScreen" id="4Y8-6J-Xem" customClass="OnBoardingViewController" customModule="Musitab" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="96X-59-wF7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
