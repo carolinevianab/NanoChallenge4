@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+    <entity name="Category" representedClassName="Category" syncable="YES" codeGenerationType="class">
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="music" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Music" inverseName="category" inverseEntity="Music"/>
+    </entity>
+    <entity name="Music" representedClassName="Music" syncable="YES" codeGenerationType="class">
+        <attribute name="lyrics" optional="YES" attributeType="String"/>
+        <attribute name="singer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Category" inverseName="music" inverseEntity="Category"/>
+    </entity>
+    <elements>
+        <element name="Music" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Category" positionX="127.0546875" positionY="43.85546875" width="128" height="73"/>
+    </elements>
 </model>

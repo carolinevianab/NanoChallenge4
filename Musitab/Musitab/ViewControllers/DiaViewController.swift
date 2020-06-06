@@ -15,7 +15,7 @@ class DiaViewController: UIViewController {
     @IBOutlet weak var Blues: UIButton!
     @IBOutlet weak var Random: UIButton!
     
-    
+    var music: Music!
     var bntClicked = ""
     
     override func viewDidLoad() {
@@ -36,6 +36,19 @@ class DiaViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! MusicaDiaViewController
         vc.buttonPressed = bntClicked
+    }
+    
+    
+    func configDB(){
+            music = Music(context: context)
+            music.lyrics = "batata"
+            music.title = "cenoura"
+            music.singer = "tomate"
+        do{
+        try context.save()
+        } catch {
+            print(error.localizedDescription)
+        }
     }
 
    

@@ -21,6 +21,8 @@
 		10C8D4D82480402A00EC471D /* CalendarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4D72480402A00EC471D /* CalendarioViewController.swift */; };
 		10C8D4DA2480407800EC471D /* MusicaCalendarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4D92480407800EC471D /* MusicaCalendarioViewController.swift */; };
 		10FBB0B3248BF9F0004D45A7 /* Musicas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10FBB0B1248BF9F0004D45A7 /* Musicas.xcdatamodeld */; };
+		10FBB0F4248C0BC8004D45A7 /* VCeCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FBB0F3248C0BC8004D45A7 /* VCeCD.swift */; };
+		10FBB0F8248C1A93004D45A7 /* DataFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FBB0F7248C1A93004D45A7 /* DataFiles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		10C8D4D72480402A00EC471D /* CalendarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioViewController.swift; sourceTree = "<group>"; };
 		10C8D4D92480407800EC471D /* MusicaCalendarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaCalendarioViewController.swift; sourceTree = "<group>"; };
 		10FBB0B2248BF9F0004D45A7 /* Musicas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Musicas.xcdatamodel; sourceTree = "<group>"; };
+		10FBB0F3248C0BC8004D45A7 /* VCeCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCeCD.swift; sourceTree = "<group>"; };
+		10FBB0F7248C1A93004D45A7 /* DataFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFiles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				10C8D4AA24800C5600EC471D /* LaunchScreen.storyboard */,
 				10C8D4AD24800C5600EC471D /* Info.plist */,
 				10FBB0B1248BF9F0004D45A7 /* Musicas.xcdatamodeld */,
+				10FBB0F3248C0BC8004D45A7 /* VCeCD.swift */,
+				10FBB0F7248C1A93004D45A7 /* DataFiles.swift */,
 			);
 			path = Musitab;
 			sourceTree = "<group>";
@@ -294,12 +300,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10FBB0F4248C0BC8004D45A7 /* VCeCD.swift in Sources */,
 				10C8D4D62480398B00EC471D /* MusicaDiaViewController.swift in Sources */,
 				10FBB0B3248BF9F0004D45A7 /* Musicas.xcdatamodeld in Sources */,
 				10C8D4A424800C5400EC471D /* DiaViewController.swift in Sources */,
 				10C8D4A024800C5400EC471D /* AppDelegate.swift in Sources */,
 				10C8D4DA2480407800EC471D /* MusicaCalendarioViewController.swift in Sources */,
 				10C8D4A224800C5400EC471D /* SceneDelegate.swift in Sources */,
+				10FBB0F8248C1A93004D45A7 /* DataFiles.swift in Sources */,
 				10C8D4D82480402A00EC471D /* CalendarioViewController.swift in Sources */,
 				10C8D4D42480176C00EC471D /* OnBoardingViewController.swift in Sources */,
 			);
