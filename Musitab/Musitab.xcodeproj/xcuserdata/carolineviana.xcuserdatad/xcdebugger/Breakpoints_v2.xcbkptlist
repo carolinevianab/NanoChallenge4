@@ -30,9 +30,9 @@
             filePath = "Musitab/ViewControllers/MusicaDiaViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "exibirMusica()"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "displaySong()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -46,9 +46,9 @@
             filePath = "Musitab/ViewControllers/MusicaDiaViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "exibirMusica()"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "displaySong()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

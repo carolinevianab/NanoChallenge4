@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		10C8D4A024800C5400EC471D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D49F24800C5400EC471D /* AppDelegate.swift */; };
 		10C8D4A224800C5400EC471D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4A124800C5400EC471D /* SceneDelegate.swift */; };
-		10C8D4A424800C5400EC471D /* DiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4A324800C5400EC471D /* DiaViewController.swift */; };
+		10C8D4A424800C5400EC471D /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4A324800C5400EC471D /* CategoriesViewController.swift */; };
 		10C8D4A724800C5400EC471D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C8D4A524800C5400EC471D /* Main.storyboard */; };
 		10C8D4A924800C5600EC471D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C8D4A824800C5600EC471D /* Assets.xcassets */; };
 		10C8D4AC24800C5600EC471D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C8D4AA24800C5600EC471D /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 		10C8D4C224800C5600EC471D /* MusitabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4C124800C5600EC471D /* MusitabUITests.swift */; };
 		10C8D4D02480119400EC471D /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C8D4CF2480119400EC471D /* OnBoarding.storyboard */; };
 		10C8D4D42480176C00EC471D /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4D32480176C00EC471D /* OnBoardingViewController.swift */; };
-		10C8D4D62480398B00EC471D /* MusicaDiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4D52480398B00EC471D /* MusicaDiaViewController.swift */; };
+		10C8D4D62480398B00EC471D /* SongOfTheDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4D52480398B00EC471D /* SongOfTheDayViewController.swift */; };
 		10C8D4D82480402A00EC471D /* TodaysSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4D72480402A00EC471D /* TodaysSongViewController.swift */; };
 		10FBB100248C430D004D45A7 /* AllMusics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10FBB0FE248C430D004D45A7 /* AllMusics.xcdatamodeld */; };
 		10FBB102248C4339004D45A7 /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FBB101248C4339004D45A7 /* ViewController+CoreData.swift */; };
@@ -45,7 +45,7 @@
 		10C8D49C24800C5400EC471D /* Musitab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musitab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10C8D49F24800C5400EC471D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10C8D4A124800C5400EC471D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		10C8D4A324800C5400EC471D /* DiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaViewController.swift; sourceTree = "<group>"; };
+		10C8D4A324800C5400EC471D /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
 		10C8D4A624800C5400EC471D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10C8D4A824800C5600EC471D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10C8D4AB24800C5600EC471D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 		10C8D4C324800C5600EC471D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10C8D4CF2480119400EC471D /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
 		10C8D4D32480176C00EC471D /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
-		10C8D4D52480398B00EC471D /* MusicaDiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaDiaViewController.swift; sourceTree = "<group>"; };
+		10C8D4D52480398B00EC471D /* SongOfTheDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongOfTheDayViewController.swift; sourceTree = "<group>"; };
 		10C8D4D72480402A00EC471D /* TodaysSongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysSongViewController.swift; sourceTree = "<group>"; };
 		10FBB0FF248C430D004D45A7 /* AllMusics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AllMusics.xcdatamodel; sourceTree = "<group>"; };
 		10FBB101248C4339004D45A7 /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
@@ -157,10 +157,10 @@
 		10C8D4D2248011EF00EC471D /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				10C8D4D52480398B00EC471D /* MusicaDiaViewController.swift */,
+				10C8D4D52480398B00EC471D /* SongOfTheDayViewController.swift */,
 				10C8D4D32480176C00EC471D /* OnBoardingViewController.swift */,
 				10C8D4D72480402A00EC471D /* TodaysSongViewController.swift */,
-				10C8D4A324800C5400EC471D /* DiaViewController.swift */,
+				10C8D4A324800C5400EC471D /* CategoriesViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -297,8 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10C8D4D62480398B00EC471D /* MusicaDiaViewController.swift in Sources */,
-				10C8D4A424800C5400EC471D /* DiaViewController.swift in Sources */,
+				10C8D4D62480398B00EC471D /* SongOfTheDayViewController.swift in Sources */,
+				10C8D4A424800C5400EC471D /* CategoriesViewController.swift in Sources */,
 				10C8D4A024800C5400EC471D /* AppDelegate.swift in Sources */,
 				10FBB100248C430D004D45A7 /* AllMusics.xcdatamodeld in Sources */,
 				10FBB102248C4339004D45A7 /* ViewController+CoreData.swift in Sources */,

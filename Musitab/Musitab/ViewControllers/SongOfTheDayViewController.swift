@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class MusicaDiaViewController: UIViewController {
+class SongOfTheDayViewController: UIViewController {
     
     @IBOutlet weak var lbl2: UILabel!
     @IBOutlet weak var lblTitle: UILabel!
@@ -19,35 +19,34 @@ class MusicaDiaViewController: UIViewController {
     
     var buttonPressed = ""
     
-    var musica: Music!
     var musics: [Music] = []
-    var musicasManager = MusicManager.shared
+    var musicsManager = MusicManager.shared
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         lbl2.text = "Essa é a música \(buttonPressed) do seu dia!"
-        exibirMusica()
+        displaySong()
     }
     
-    func exibirMusica(){
-        musicasManager.loadSongs(with: context)
+    func displaySong(){
+        musicsManager.loadSongs(with: context)
         
-        let cont = musicasManager.musics.count
+        let cont = musicsManager.musics.count
         
         if(buttonPressed == "Random"){
             let number = Int.random(in: 0...cont - 1)
-            lblTitle.text = musicasManager.musics[number].title
-            lblSinger.text = musicasManager.musics[number].singer
-            lblLyrics.text = musicasManager.musics[number].lyrics
+            lblTitle.text = musicsManager.musics[number].title
+            lblSinger.text = musicsManager.musics[number].singer
+            lblLyrics.text = musicsManager.musics[number].lyrics
             
             
         }
         else {
             var cont2 = 1
             while(cont2 < cont){
-                if(musicasManager.musics[cont2].category == buttonPressed){
-                    musics.append(musicasManager.musics[cont2])
+                if(musicsManager.musics[cont2].category == buttonPressed){
+                    musics.append(musicsManager.musics[cont2])
                 }
                 cont2+=1
             }

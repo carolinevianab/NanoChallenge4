@@ -9,7 +9,7 @@
 import UIKit
 import CoreData
 
-class DiaViewController: UIViewController {
+class CategoriesViewController: UIViewController {
     
     @IBOutlet weak var MPB: UIButton!
     @IBOutlet weak var Rock: UIButton!
@@ -38,7 +38,7 @@ class DiaViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as! MusicaDiaViewController
+        let vc = segue.destination as! SongOfTheDayViewController
         vc.buttonPressed = bntClicked
     }
     
