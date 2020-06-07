@@ -34,7 +34,6 @@ class MusicaDiaViewController: UIViewController {
         musicasManager.loadSongs(with: context)
         
         let cont = musicasManager.musics.count
-        var daysCount = 0
         
         if(buttonPressed == "Random"){
             let number = Int.random(in: 0...cont - 1)
@@ -42,12 +41,10 @@ class MusicaDiaViewController: UIViewController {
             lblSinger.text = musicasManager.musics[number].singer
             lblLyrics.text = musicasManager.musics[number].lyrics
             
-            let vc = MusicaCalendarioViewController()
-            vc.indexes[daysCount] = number
+            
         }
         else {
             var cont2 = 1
-            var cont3 = 1
             while(cont2 < cont){
                 if(musicasManager.musics[cont2].category == buttonPressed){
                     musics.append(musicasManager.musics[cont2])
@@ -66,20 +63,17 @@ class MusicaDiaViewController: UIViewController {
             lblSinger.text = musics[number].singer
             lblLyrics.text = musics[number].lyrics
             
-            
+            let vc = TodaysSongViewController()
+            let wasChanged = vc.defalts.bool(forKey: "wasChanged")
+            if(wasChanged == false){
+                let copyThat = musics[number]
+                vc.defalts.set(copyThat.title, forKey: "TodaysTitle")
+                vc.defalts.set(copyThat.singer, forKey: "TodaysSinger")
+                vc.defalts.set(copyThat.lyrics, forKey: "TodaysLyrics")
+                vc.defalts.set(true, forKey: "wasChanged")
+            }
         }
         
-        
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

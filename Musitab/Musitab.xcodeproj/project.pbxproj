@@ -18,8 +18,7 @@
 		10C8D4D02480119400EC471D /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C8D4CF2480119400EC471D /* OnBoarding.storyboard */; };
 		10C8D4D42480176C00EC471D /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4D32480176C00EC471D /* OnBoardingViewController.swift */; };
 		10C8D4D62480398B00EC471D /* MusicaDiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4D52480398B00EC471D /* MusicaDiaViewController.swift */; };
-		10C8D4D82480402A00EC471D /* CalendarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4D72480402A00EC471D /* CalendarioViewController.swift */; };
-		10C8D4DA2480407800EC471D /* MusicaCalendarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4D92480407800EC471D /* MusicaCalendarioViewController.swift */; };
+		10C8D4D82480402A00EC471D /* TodaysSongViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8D4D72480402A00EC471D /* TodaysSongViewController.swift */; };
 		10FBB100248C430D004D45A7 /* AllMusics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10FBB0FE248C430D004D45A7 /* AllMusics.xcdatamodeld */; };
 		10FBB102248C4339004D45A7 /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FBB101248C4339004D45A7 /* ViewController+CoreData.swift */; };
 		10FBB104248C44AD004D45A7 /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FBB103248C44AD004D45A7 /* MusicManager.swift */; };
@@ -60,8 +59,7 @@
 		10C8D4CF2480119400EC471D /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
 		10C8D4D32480176C00EC471D /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		10C8D4D52480398B00EC471D /* MusicaDiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaDiaViewController.swift; sourceTree = "<group>"; };
-		10C8D4D72480402A00EC471D /* CalendarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioViewController.swift; sourceTree = "<group>"; };
-		10C8D4D92480407800EC471D /* MusicaCalendarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicaCalendarioViewController.swift; sourceTree = "<group>"; };
+		10C8D4D72480402A00EC471D /* TodaysSongViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysSongViewController.swift; sourceTree = "<group>"; };
 		10FBB0FF248C430D004D45A7 /* AllMusics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AllMusics.xcdatamodel; sourceTree = "<group>"; };
 		10FBB101248C4339004D45A7 /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
 		10FBB103248C44AD004D45A7 /* MusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
@@ -161,8 +159,7 @@
 			children = (
 				10C8D4D52480398B00EC471D /* MusicaDiaViewController.swift */,
 				10C8D4D32480176C00EC471D /* OnBoardingViewController.swift */,
-				10C8D4D92480407800EC471D /* MusicaCalendarioViewController.swift */,
-				10C8D4D72480402A00EC471D /* CalendarioViewController.swift */,
+				10C8D4D72480402A00EC471D /* TodaysSongViewController.swift */,
 				10C8D4A324800C5400EC471D /* DiaViewController.swift */,
 			);
 			path = ViewControllers;
@@ -304,10 +301,9 @@
 				10C8D4A424800C5400EC471D /* DiaViewController.swift in Sources */,
 				10C8D4A024800C5400EC471D /* AppDelegate.swift in Sources */,
 				10FBB100248C430D004D45A7 /* AllMusics.xcdatamodeld in Sources */,
-				10C8D4DA2480407800EC471D /* MusicaCalendarioViewController.swift in Sources */,
 				10FBB102248C4339004D45A7 /* ViewController+CoreData.swift in Sources */,
 				10C8D4A224800C5400EC471D /* SceneDelegate.swift in Sources */,
-				10C8D4D82480402A00EC471D /* CalendarioViewController.swift in Sources */,
+				10C8D4D82480402A00EC471D /* TodaysSongViewController.swift in Sources */,
 				10C8D4D42480176C00EC471D /* OnBoardingViewController.swift in Sources */,
 				10FBB104248C44AD004D45A7 /* MusicManager.swift in Sources */,
 			);
