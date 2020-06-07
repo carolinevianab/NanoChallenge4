@@ -12,6 +12,7 @@ class MusicaCalendarioViewController: UIViewController {
     
     @IBOutlet weak var lbl: UILabel!
     var buttonPressed = "0"
+    var indexes: [Int] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class DiaViewController: UIViewController {
     
@@ -17,6 +18,7 @@ class DiaViewController: UIViewController {
     
     
     var bntClicked = ""
+    var music: Music!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +27,8 @@ class DiaViewController: UIViewController {
         Rock.addTarget(self, action: #selector(defineClick), for: .touchUpInside)
         Blues.addTarget(self, action: #selector(defineClick), for: .touchUpInside)
         Random.addTarget(self, action: #selector(defineClick), for: .touchUpInside)
+        
+        configDB()
         
     }
     
@@ -36,6 +40,44 @@ class DiaViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let vc = segue.destination as! MusicaDiaViewController
         vc.buttonPressed = bntClicked
+    }
+    
+    func configDB(){
+        music = Music(context: context)
+        music.title = "Rock1"
+        music.singer = "Rock1"
+        music.lyrics = "Rock1"
+        music.category = "Rock"
+        
+        music = Music(context: context)
+        music.title = "Rock2"
+        music.singer = "Rock2"
+        music.lyrics = "Rock2"
+        music.category = "Rock"
+        
+        music = Music(context: context)
+        music.title = "Blues1"
+        music.singer = "Blues1"
+        music.lyrics = "Blues1"
+        music.category = "Blues"
+        
+        music = Music(context: context)
+        music.title = "Blues2"
+        music.singer = "Blues2"
+        music.lyrics = "Blues2"
+        music.category = "Blues"
+        
+        music = Music(context: context)
+        music.title = "MPB1"
+        music.singer = "MPB1"
+        music.lyrics = "MPB1"
+        music.category = "MPB"
+        
+        do{
+            try context.save()
+            } catch {
+                print(error.localizedDescription)
+        }
     }
 
    
